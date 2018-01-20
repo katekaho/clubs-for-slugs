@@ -5,7 +5,7 @@ var clubs = [
             description: 'Learn about chemistry' },
 
       { name: 'Education for Sustainable Living Program (ESLP)', category: 'environmental',
-            description: 'A student-run organization which offers  student- facilitated Action Research Teams (ARTs) for credit every spring quarter at the University of California Santa Cruz.' },
+            description: 'A student-run organization which offers student-facilitated Action Research Teams (ARTs) for credit every spring quarter at the University of California Santa Cruz.' },
 
       { name: 'Active Minds', category: 'general',
             description: 'Learn about chemistry' },
@@ -28,40 +28,37 @@ var clubs = [
       { name: 'Circle K International', category: 'service',
             description: 'Do service'},
 
-      {name: 'Anthropology Society',category: 'academic', 
+      { name: 'Anthropology Society',category: 'academic', 
             description:'student run organization, focuses on the extracurricular enhancement of the anthropology student experience'},
       
-      {name: 'Association for Computing Machinery',category: 'academic', 
+      { name: 'Association for Computing Machinery',category: 'academic', 
             description:'ACM seeks to promote interest in computer science and other science- and engineering-related disciplines.'},
 
-<<<<<<< HEAD
-=======
       { name: 'Chicanas and Latinas Educandose', category: 'academic',
             description: 'A program committed to increasing the retention and graduation rate for all raza here at UCSC'},      
       { name: 'Chinese Student & Scholars Association', category: 'academic',
-	description: 'Dedicated to fostering friendship in the Chinese Community' },
+	          description: 'Dedicated to fostering friendship in the Chinese Community' },
 
       { name: 'Cognitive Science Student Association', category: 'academic',
-	description: 'Founded to support and enrich the academic experience of students interested in the interdisciplinary study of brains and behavior' },
+	          description: 'Founded to support and enrich the academic experience of students interested in the interdisciplinary study of brains and behavior' },
       
       { name: 'Communicating Oceanography Research Effectively', category: 'academic',
-	description: 'Graduate student organization that aims to improve the marine sciences through education, outreach, and diversification' },
+	          description: 'Graduate student organization that aims to improve the marine sciences through education, outreach, and diversification' },
 
       { name: 'Community Unified Student Network', category: 'academic',
-	description: 'Organization under Engaging Education that focuses on the retention rates of Asian/Pacific Islander students on campus' },
+	          description: 'Organization under Engaging Education that focuses on the retention rates of Asian/Pacific Islander students on campus' },
 
       { name: 'Engineers For Change', category: 'academic',
-	description: 'Our mission is to create a mutually beneficial partnership between our local community and UC Santa Cruz Students' },
+	          description: 'Our mission is to create a mutually beneficial partnership between our local community and UC Santa Cruz Students' },
 
       { name: 'Golden Key International Honor Society', category: 'academic',
-	description: 'We offer a sense of fellowship within the society pillars' },
+	          description: 'We offer a sense of fellowship within the society pillars' },
 
       { name: 'A Step Forward', category: 'general',
-	description: 'Introduces UC Santa Cruz, the Filipino Student Association (FSA) community, and college life to newly admitted students.' },
+	          description: 'Introduces UC Santa Cruz, the Filipino Student Association (FSA) community, and college life to newly admitted students.' },
 
       { name: 'Chinese Student Association', category: 'general',
-	description: 'A student organization promoting unity and empowerment among UCSC students through education' },
->>>>>>> db3ca490d0ee2fc4c5292d2bbdc475863e2bb282
+	          description: 'A student organization promoting unity and empowerment among UCSC students through education' },
     ];
 
 // Sorts clubs into alphabetical order
@@ -78,7 +75,6 @@ for (var i = 0; i < clubs.length; i++) {
 
       var icon = document.createElement("div");
       icon.classList.add("icon");
-      icon.innerHTML = "test";
 
       var header = document.createElement("h2");
       header.innerHTML = clubs[i].name;
