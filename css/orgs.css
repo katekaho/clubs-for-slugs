@@ -49,3 +49,8 @@ h2 {
   background-color: #666;
   color: white;
 }
+
+#page-titles {
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
