@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Heroic Features - Start Bootstrap Template</title>
+    <title>Organizations</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -55,6 +55,17 @@
 				<div class="row">
 					<div id ="filter-buttons" class="col-md-4 col-lg-4">
 						<h1>this is filter buttons</h1>
+            <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+            <button class="btn" onclick="filterSelection('academic')"> Academic</button>
+            <button class="btn" onclick="filterSelection('culture-and-identity')"> Culture and Identity</button>
+            <button class="btn" onclick="filterSelection('environmental')"> Environmental</button>
+            <button class="btn" onclick="filterSelection('general')"> General Interest</button>
+            <button class="btn" onclick="filterSelection('greek')"> Greek</button>
+            <button class="btn" onclick="filterSelection('visual-and-performance')"> Visual and Performance Arts</button>
+            <button class="btn" onclick="filterSelection('political')"> Political</button>
+            <button class="btn" onclick="filterSelection('professional')"> Professional</button>
+            <button class="btn" onclick="filterSelection('religious')"> Religious</button>
+            <button class="btn" onclick="filterSelection('service')"> Service</button>
 					</div>
 
 					<div id="orgs-list" class="col-md-8 col-lg-8">
@@ -64,14 +75,9 @@
 
 				</div>
 
-  			<button class="btn active" onclick="filterSelection('all')"> Show all</button>
-  			<button class="btn" onclick="filterSelection('cars')"> Cars</button>
-  			<button class="btn" onclick="filterSelection('animals')"> Animals</button>
-  			<button class="btn" onclick="filterSelection('fruits')"> Fruits</button>
-  			<button class="btn" onclick="filterSelection('colors')"> Colors</button>
+  			
 			</div>
     </div>
-
 
     <!-- /.container -->
 
