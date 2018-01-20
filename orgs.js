@@ -4,8 +4,8 @@ var clubs = [
       { name: 'Chemistry Club', category: 'academic',
             description: 'Learn about chemistry' },
 
-      { name: 'The Russian Club', category: 'environmental',
-            description: 'Lets talk Russia' },
+      { name: 'Education for Sustainable Living Program (ESLP)', category: 'environmental',
+            description: 'A student-run organization which offers  student- facilitated Action Research Teams (ARTs) for credit every spring quarter at the University of California Santa Cruz.' },
 
       { name: 'Active Minds', category: 'general',
             description: 'Learn about chemistry' },
@@ -28,11 +28,14 @@ var clubs = [
       { name: 'Circle K International', category: 'service',
             description: 'Do service'},
 
-      {name: 'Anthropology Society',category: 'academic', description:'student run organization, focuses on the extracurricular enhancement of the anthropology student experience'},
+      {name: 'Anthropology Society',category: 'academic', 
+            description:'student run organization, focuses on the extracurricular enhancement of the anthropology student experience'},
       
-      {name: 'Association for Computing Machinery',category: 'academic', description:'ACM seeks to promote interest in computer science and other science- and engineering-related disciplines.'},
+      {name: 'Association for Computing Machinery',category: 'academic', 
+            description:'ACM seeks to promote interest in computer science and other science- and engineering-related disciplines.'},
 
-      
+      { name: 'Chicanas and Latinas Educandose', category: 'academic',
+            description: 'A program committed to increasing the retention and graduation rate for all raza here at UCSC'},      
     ];
 
 // Sorts clubs into alphabetical order
