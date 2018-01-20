@@ -34,6 +34,8 @@ var clubs = [
       {name: 'Association for Computing Machinery',category: 'academic', 
             description:'ACM seeks to promote interest in computer science and other science- and engineering-related disciplines.'},
 
+<<<<<<< HEAD
+=======
       { name: 'Chicanas and Latinas Educandose', category: 'academic',
             description: 'A program committed to increasing the retention and graduation rate for all raza here at UCSC'},      
       { name: 'Chinese Student & Scholars Association', category: 'academic',
@@ -59,6 +61,7 @@ var clubs = [
 
       { name: 'Chinese Student Association', category: 'general',
 	description: 'A student organization promoting unity and empowerment among UCSC students through education' },
+>>>>>>> db3ca490d0ee2fc4c5292d2bbdc475863e2bb282
     ];
 
 // Sorts clubs into alphabetical order
@@ -69,14 +72,20 @@ clubs = clubs.sort(function(a, b) {
 // Creates div with name of each club
 for (var i = 0; i < clubs.length; i++) {
       var div = document.createElement("div");
+      // Add classes
       div.classList.add("filterDiv");
       div.classList.add(clubs[i].category);
+
+      var icon = document.createElement("div");
+      icon.classList.add("icon");
+      icon.innerHTML = "test";
+
       var header = document.createElement("h2");
-      var node1 = document.createTextNode(clubs[i].name);
+      header.innerHTML = clubs[i].name;
       var para = document.createElement("p");
-      var node2 = document.createTextNode(clubs[i].description);
-      header.appendChild(node1);
-      para.appendChild(node2);
+      para.innerHTML = clubs[i].description;
+
+      div.appendChild(icon);
       div.appendChild(header);
       div.appendChild(para);
       container.appendChild(div);
@@ -131,8 +140,8 @@ var btns = btnContainer.getElementsByClassName("btn");
 
 for (var i = 0; i < btns.length; i++) {
   btns[i].addEventListener("click", function() {
-    var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
+      var current = document.getElementsByClassName("btn active");
+      current[0].className = current[0].className.replace(" active", "");
+      this.className += " active";
   });
 }
