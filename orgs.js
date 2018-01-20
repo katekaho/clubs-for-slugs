@@ -34,8 +34,6 @@ var clubs = [
       {name: 'Association for Computing Machinery',category: 'academic', 
             description:'ACM seeks to promote interest in computer science and other science- and engineering-related disciplines.'},
 
-<<<<<<< HEAD
-=======
       { name: 'Chicanas and Latinas Educandose', category: 'academic',
             description: 'A program committed to increasing the retention and graduation rate for all raza here at UCSC'},      
       { name: 'Chinese Student & Scholars Association', category: 'academic',
@@ -61,7 +59,7 @@ var clubs = [
 
       { name: 'Chinese Student Association', category: 'general',
 	description: 'A student organization promoting unity and empowerment among UCSC students through education' },
->>>>>>> db3ca490d0ee2fc4c5292d2bbdc475863e2bb282
+
     ];
 
 // Sorts clubs into alphabetical order
