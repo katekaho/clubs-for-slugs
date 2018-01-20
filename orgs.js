@@ -27,6 +27,13 @@ var clubs = [
 
       { name: 'Circle K International', category: 'service',
             description: 'Do service'},
+
+      {name: 'Anthropology Society',category: 'academic', description:'student run organization, focuses on the extracurricular enhancement of the anthropology student experience'},
+      
+      {name: 'Association for Computing Machinery',category: 'academic', description:'ACM seeks to promote interest in computer science and other science- and engineering-related disciplines.'},
+
+      
+      
     ];
 
 // Sorts clubs into alphabetical order
