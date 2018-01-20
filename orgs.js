@@ -28,20 +28,20 @@ var clubs = [
       { name: 'Circle K International', category: 'service',
             description: 'Do service'},
 
-      { name: 'Anthropology Society',category: 'academic', 
+      { name: 'Anthropology Society',category: 'academic',
             description:'student run organization, focuses on the extracurricular enhancement of the anthropology student experience'},
-      
-      { name: 'Association for Computing Machinery',category: 'academic', 
+
+      { name: 'Association for Computing Machinery',category: 'academic',
             description:'ACM seeks to promote interest in computer science and other science- and engineering-related disciplines.'},
 
       { name: 'Chicanas and Latinas Educandose', category: 'academic',
-            description: 'A program committed to increasing the retention and graduation rate for all raza here at UCSC'},      
+            description: 'A program committed to increasing the retention and graduation rate for all raza here at UCSC'},
       { name: 'Chinese Student & Scholars Association', category: 'academic',
 	          description: 'Dedicated to fostering friendship in the Chinese Community' },
 
       { name: 'Cognitive Science Student Association', category: 'academic',
 	          description: 'Founded to support and enrich the academic experience of students interested in the interdisciplinary study of brains and behavior' },
-      
+
       { name: 'Communicating Oceanography Research Effectively', category: 'academic',
 	          description: 'Graduate student organization that aims to improve the marine sciences through education, outreach, and diversification' },
 
@@ -59,6 +59,19 @@ var clubs = [
 
       { name: 'Chinese Student Association', category: 'general',
 	          description: 'A student organization promoting unity and empowerment among UCSC students through education' },
+
+      {name:'Alpha Epsilon Pi', category: 'Greek',
+            description: 'The Jewish fraternity'},
+
+      {name: 'Alpha Kappa Delta Phi', category: 'Greek',
+            description: 'Love * Friendship * Sisterhood'},
+
+      {name: 'Alpha Phi Omega', category: 'Greek',
+            description: 'Be a leader. Be a friend. Be of service'},
+
+      {name: 'Alpha Psi Sorority', category: 'Greek'
+            description: 'Join us in the pursuit of lifelong friendship'},
+                      
     ];
 
 // Sorts clubs into alphabetical order
