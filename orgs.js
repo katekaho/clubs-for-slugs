@@ -16,7 +16,7 @@ var clubs = [
       { name: 'The Hightones', category: 'visual-and-performance',
             description: 'Acapella' },
 
-      { name: 'College Republicans', category: 'political', 
+      { name: 'College Republicans', category: 'political',
             description: '....'},
 
       { name: 'Pre-Dental ', category: 'professional',
@@ -51,7 +51,7 @@ for (var i = 0; i < clubs.length; i++) {
 }
 
 const categories = ['academic', 'culture-and-identity','environmental', 'general',
-      'greek', 'visual-and-performance', 'political', 'professional', 
+      'greek', 'visual-and-performance', 'political', 'professional',
       'religious', 'service'];
 
 
@@ -87,7 +87,7 @@ function removeClass(element, name) {
   arr2 = name.split(" ");
   for (i = 0; i < arr2.length; i++) {
     while (arr1.indexOf(arr2[i]) > -1) {
-      arr1.splice(arr1.indexOf(arr2[i]), 1); 
+      arr1.splice(arr1.indexOf(arr2[i]), 1);
     }
   }
   element.className = arr1.join(" ");
