@@ -50,16 +50,6 @@ for (var i = 0; i < clubs.length; i++) {
       container.appendChild(div);
 }
 
-console.table(clubs);
-
-const categories = ['academic', 'environmental', 'general', 'greek',
-      'visual-and-performance', 'political', 'professional', 
+const categories = ['academic', 'culture-and-identity','environmental', 'general',
+      'greek', 'visual-and-performance', 'political', 'professional', 
       'religious', 'service'];
-
-console.log(categories);
-
-
-const clicked = 8;
-
-const filterByCategory = clubs.filter(club => (club.category === categories[clicked]));
-console.table(filterByCategory);
