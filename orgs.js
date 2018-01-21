@@ -133,7 +133,7 @@ var clubs = [
         instagramUrl: "",
         facebookName: "A Step Forward 19",
         webName: "A Step Forward",
-        instagramName: "",
+        instagramName: " A Step Forward",
         email: "asf.ucsc@gmail.com"
       },
 
