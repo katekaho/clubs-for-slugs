@@ -138,36 +138,35 @@ clubs = clubs.sort(function(a, b) {
 
 // Creates div with name of each club
 for (var i = 0; i < clubs.length; i++) {
+      // Div that contains club info
       var div = document.createElement("div");
-      // Add classes
       div.classList.add("filterDiv");
       div.classList.add(clubs[i].category);
 
-      var info = document.createElement("div");
+      var clubHeader = document.createElement("h2");
+      clubHeader.classList.add("clickHeader");
+      clubHeader.innerHTML = clubs[i].name;
 
-      info.innerHTML = clubs[i].facebook;
-      info.classList.add("collapse");
+      var para = document.createElement("p");
+      para.innerHTML = clubs[i].description;
 
-      var header = document.createElement("h2");
-      header.classList.add("clickHeader");
-      header.innerHTML = clubs[i].name;
+      var hiddenInfo = document.createElement("div");
+      hiddenInfo.innerHTML = clubs[i].facebook;
+      hiddenInfo.classList.add("collapse");
 
-      header.onclick = function(e){
+      // Creates accordion affect
+      clubHeader.onclick = function(e){
         if (first) {first = false;}
         else {
           var current = document.getElementsByClassName("collapse show");
           current[0].className = current[0].className.replace(" show", "");
         }
         e.target.nextElementSibling.nextElementSibling.classList.add("show");
-        //e.target.parentElement.childNodes
       }
 
-      var para = document.createElement("p");
-      para.innerHTML = clubs[i].description;
-
-      div.appendChild(header);
+      div.appendChild(clubHeader);
       div.appendChild(para);
-      div.appendChild(info);
+      div.appendChild(hiddenInfo);
 
       container.appendChild(div);
 }
