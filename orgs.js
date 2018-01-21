@@ -165,7 +165,10 @@ var clubs = [
 
       { name: 'Alpha Phi Omega',
         category: 'greek',
-        description: 'A national coeducational service organization founded on the principles of Leadership, Friendship, and Service. '},
+        description: 'A national coeducational service organization founded on the principles of Leadership, Friendship, and Service. ',
+        webUrl: "http://www.apoagn.org/",
+        webName: "Alpha Phi Omega",
+      },
 
       { name: 'Alpha Psi Sorority',
         category: 'greek',
