@@ -15,6 +15,17 @@ h2 {
     overflow: hidden;
 }
 
+/*changes links in organizations*/
+.various-links {
+  color: black;
+  text-decoration: underline;
+}
+
+.various-links:hover {
+  color: purple;
+  text-decoration: underline;
+}
+
 .clickHeader {
   text-decoration: underline;
 }

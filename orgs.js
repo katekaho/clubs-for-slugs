@@ -156,7 +156,15 @@ function createIcon(imgLink, actualLink, name) {
   var link = document.createElement("img");
   var a = document.createElement("a");
   a.setAttribute("href", actualLink);
-  a.innerHTML = name;
+  if (actualLink == undefined) {
+    a.setAttribute("href", "");
+  }
+  // Opens links in new tab
+  a.setAttribute("target", "_blank");
+  a.classList.add("various-links")
+  if (name != undefined) {
+    a.innerHTML = name;
+  }
   iconDiv.classList.add("icons");
   link.classList.add("icon-pic");
   link.setAttribute("src", imgLink);
