@@ -96,6 +96,8 @@ var clubs = [
 
     ];
 
+var first = true;
+
 // Sorts clubs into alphabetical order
 clubs = clubs.sort(function(a, b) {
       return a.name.localeCompare(b.name);
@@ -108,17 +110,30 @@ for (var i = 0; i < clubs.length; i++) {
       div.classList.add("filterDiv");
       div.classList.add(clubs[i].category);
 
-      var icon = document.createElement("div");
-      //icon.classList.add("icon");
-
+      var info = document.createElement("div");
+      info.innerHTML = "Here's an example string.";
+      info.classList.add("collapse");
       var header = document.createElement("h2");
+      header.classList.add("clickHeader");
       header.innerHTML = clubs[i].name;
+
+      header.onclick = function(e){
+        if (first) {first = false;}
+        else {
+          var current = document.getElementsByClassName("collapse show");
+          current[0].className = current[0].className.replace(" show", "");
+        }
+        e.target.nextElementSibling.nextElementSibling.classList.add("show");
+        //e.target.parentElement.childNodes
+      }
+
       var para = document.createElement("p");
       para.innerHTML = clubs[i].description;
 
-      div.appendChild(icon);
       div.appendChild(header);
       div.appendChild(para);
+      div.appendChild(info);
+
       container.appendChild(div);
 }
 
