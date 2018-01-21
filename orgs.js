@@ -1,7 +1,7 @@
 const container = document.getElementById('orgs-list');
 
 var clubs = [
-      { name: 'Chemistry Club', 
+      { name: 'Chemistry Club',
         category: 'academic',
         description: 'This club strive to build a community of UCSC students interested in chemistry and related fields. The club promotes networking with professors and local industrial organizations.',
         facebookUrl: "https://www.facebook.com/groups/ChemClubUCSC/" ,
@@ -13,7 +13,7 @@ var clubs = [
         email: "chemclub@ucsc.edu"
       },
 
-      { name: 'Education for Sustainable Living Program (ESLP)', 
+      { name: 'Education for Sustainable Living Program (ESLP)',
         category: 'environmental',
         description: 'A student-run organization which offers student-facilitated Action Research Teams (ARTs) for credit every spring quarter at the University of California Santa Cruz.',
         facebookUrl: "https://www.facebook.com/educationforsustainablelivingprogram/" ,
@@ -25,7 +25,7 @@ var clubs = [
         email: "eslp@ucsc.edu"
       },
 
-      { name: 'Active Minds', 
+      { name: 'Active Minds',
         category: 'general',
         description: 'The leading nonprofit organization that empowers students to speak openly about mental health in order to educate others and encourage help-seeking.',
         facebookUrl: "https://www.facebook.com/activemindsucsc/" ,
@@ -37,7 +37,7 @@ var clubs = [
         email: "activemindsucsc@gmail.com"
       },
 
-      { name: 'Kappa Zeta', 
+      { name: 'Kappa Zeta',
         category: 'greek',
         description: 'Our sorority has been and always will be committed to promoting sisterhood, leadership, and life-long friendships.',
         facebookUrl: "https://www.facebook.com/kappazetaucsc/" ,
@@ -49,7 +49,7 @@ var clubs = [
         email: ""
       },
 
-      { name: 'The Hightones', 
+      { name: 'The Hightones',
         category: 'visual-and-performance',
         description: 'A group of multi-talented, collegiate women whose voices in harmony bring to mind sugar, spice, and everything awesome!',
         facebookUrl: "https://www.facebook.com/hightones.acappella/" ,
@@ -61,15 +61,15 @@ var clubs = [
         email: "ucschightones@gmail.com"
       },
 
-      { name: 'College Republicans', 
+      { name: 'College Republicans',
         category: 'political',
         description: 'We recruit, train, and empower College Republicans to combat liberal bias on campus, and help to elect Republicans throughout our state.'},
 
-      { name: 'Pre-Dental Society', 
+      { name: 'Pre-Dental Society',
         category: 'professional',
         description: 'We are focused on providing our members with the resources necessary to become competitive dental school applicants.'},
 
-      { name: 'Muslim Student Association', 
+      { name: 'Muslim Student Association',
         category: 'religious',
         description: 'We are dedicated to spreading truth and awareness about the real, peaceable message of Islam, and creating a safe and supportive environment for Muslims on campus.'},
 
@@ -88,31 +88,31 @@ var clubs = [
         category: 'academic',
         description:'ACM seeks to promote interest in computer science and other science- and engineering-related disciplines.'},
 
-      { name: 'Chicanas and Latinas Educandose', 
+      { name: 'Chicanas and Latinas Educandose',
         category: 'academic',
         description: 'A program committed to increasing the retention and graduation rate for all raza here at UCSC'},
 
-      { name: 'Chinese Student & Scholars Association', 
+      { name: 'Chinese Student & Scholars Association',
         category: 'academic',
 	      description: 'Dedicated to fostering friendship in the Chinese Community' },
 
-      { name: 'Cognitive Science Student Association', 
+      { name: 'Cognitive Science Student Association',
         category: 'academic',
 	      description: 'Founded to support and enrich the academic experience of students interested in the interdisciplinary study of brains and behavior' },
 
-      { name: 'Communicating Oceanography Research Effectively', 
+      { name: 'Communicating Oceanography Research Effectively',
         category: 'academic',
 	      description: 'Graduate student organization that aims to improve the marine sciences through education, outreach, and diversification' },
 
-      { name: 'Community Unified Student Network', 
+      { name: 'Community Unified Student Network',
         category: 'academic',
 	      description: 'Organization under Engaging Education that focuses on the retention rates of Asian/Pacific Islander students on campus' },
 
-      { name: 'Engineers For Change', 
+      { name: 'Engineers For Change',
         category: 'academic',
 	      description: 'Our mission is to create a mutually beneficial partnership between our local community and UC Santa Cruz Students' },
 
-      { name: 'Golden Key International Honor Society', 
+      { name: 'Golden Key International Honor Society',
         category: 'academic',
 	      description: 'We offer a sense of fellowship within the society pillars.',
         facebookUrl: "https://www.facebook.com/groups/ucscgoldenkey/" ,
@@ -124,15 +124,15 @@ var clubs = [
         email: "goldenkeyucsc@gmail.com"
       },
 
-      { name: 'A Step Forward', 
+      { name: 'A Step Forward',
         category: 'general',
 	      description: 'Introduces UC Santa Cruz, the Filipino Student Association (FSA) community, and college life to newly admitted students.' },
 
-      { name: 'Chinese Student Association', 
+      { name: 'Chinese Student Association',
         category: 'general',
 	      description: 'A student organization promoting unity and empowerment among UCSC students through education' },
 
-      { name: 'Alpha Epsilon Pi', 
+      { name: 'Alpha Epsilon Pi',
         category: 'greek',
         description: 'A social fraternity that seeks to proliferate and espouse the morals of Judaism through brotherhood, social action, and philanthropy.',
         facebookUrl: "https://www.facebook.com/UCSCAEPI/" ,
@@ -144,7 +144,7 @@ var clubs = [
         email: "aepisc@gmail.com"
       },
 
-      { name: 'Alpha Kappa Delta Phi', 
+      { name: 'Alpha Kappa Delta Phi',
         category: 'greek',
         description: 'We have dedicated ourselves to upholding and exemplifying our pillars of scholarship, leadership, service, Asian-awareness, and sisterhood.',
         facebookUrl: "https://www.facebook.com/ucsc.akdphi" ,
@@ -157,11 +157,11 @@ var clubs = [
       },
 
 
-      { name: 'Alpha Phi Omega', 
+      { name: 'Alpha Phi Omega',
         category: 'greek',
         description: 'A national coeducational service organization founded on the principles of Leadership, Friendship, and Service. '},
 
-      { name: 'Alpha Psi Sorority', 
+      { name: 'Alpha Psi Sorority',
         category: 'greek',
         description: 'An organization founded on the ideals of academic excellence, intellectual achievement, and social development. ',
         facebookUrl: "https://www.facebook.com/UCSCAlphaPsi" ,
@@ -173,7 +173,7 @@ var clubs = [
         email: "alphapsiucsc@yahoo.com"
       },
 
-      { name: 'Delta Sigma Pi', 
+      { name: 'Delta Sigma Pi',
         category: 'greek',
         description: 'An organization acilitates social activity among students, the community, and business organizations. ',
         facebookUrl: "https://www.facebook.com/ucscdsp/?ref=aymt_homepage_panel" ,
@@ -185,23 +185,23 @@ var clubs = [
         email: "ucsc.dsp@gmail.com"
       },
 
-      { name: 'Ambience at UCSC', 
+      { name: 'Ambience at UCSC',
         category: 'visual-and-performance',
         description: 'We are a group of glovers'},
 
-      { name: 'Cloud 9 A Cappella', 
+      { name: 'Cloud 9 A Cappella',
         category: 'visual-and-performance',
         description: 'Cloud 9 is an original a cappella group at UCSC. Established in 2001, we have been rocking collegiate a cappella for over a decade.'},
 
-      { name: 'Banana Slugs for Animals', 
+      { name: 'Banana Slugs for Animals',
         category:'political',
         description: 'A student organization, uses eye-catching displays, protests, tabling and volunteering to fight against animal injustice.'},
 
-      { name: 'American Medical Student Association', 
+      { name: 'American Medical Student Association',
         category: 'professional',
         description: 'AMSA is designed to help premeds and med students network and learn about the challenges that will face them as doctors.'},
 
-      { name: 'Klesis Christian Fellowship', 
+      { name: 'Klesis Christian Fellowship',
         category: 'religious',
         description: 'A UC Santa Cruz campus fellowship that meets weekly to study the Bible and build lasting friendships.',
         facebookUrl: "https://www.facebook.com/klesissantacruz/" ,
@@ -213,8 +213,13 @@ var clubs = [
         email: "jason.lu@gpmail.org"
       },
 
-      { name: 'Circle K International', 
+      { name: 'Circle K International',
         category: 'service',
+<<<<<<< HEAD
+        description: 'Premier collegiate community service'},
+
+      { name: 'Japanese Student Association (JSA)',
+=======
         description: 'CKI is the premier collegiate community service, leadership development, and friendship organization in the world. ',
         facebookUrl: "https://www.facebook.com/groups/ucsccirclek/10153792201631243/" ,
         webUrl: "https://ucsc-cki.weebly.com/cki.html",
@@ -226,6 +231,7 @@ var clubs = [
       },
       
       { name: 'Japanese Student Association (JSA)', 
+>>>>>>> 0cdda562ddeb42dc8fa6f3e7b7c830475dd6c64a
         category: 'culture-and-identity',
         description: 'JSA is a student led organization of UCSC that supports and promote Japanese culture through cultural events, activities, and socials.',
         facebookUrl: "https://www.facebook.com/groups/JSA.UCSC/" ,
@@ -296,6 +302,7 @@ for (var i = 0; i < clubs.length; i++) {
 
       // Creates accordion affect
       clubHeader.onclick = function(e){
+
         if (first) {first = false;}
         else {
           var current = document.getElementsByClassName("collapse show");

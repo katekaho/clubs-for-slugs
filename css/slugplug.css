@@ -1,5 +1,18 @@
 /*implemented from https://github.com/web-tiki/responsive-grid-of-hexagons*/
 
+#sub-heading {
+  padding-top: 20px;
+}
+
+#sub-heading2 {
+  padding-top: 5px;
+  text-align: left;
+}
+
+#sub-heading3 {
+  padding-top: 30px;
+}
+
 * {
     margin: 0;
     padding: 0;
