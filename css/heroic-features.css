@@ -25,13 +25,10 @@ body {
 
 }
 
-.jumbotron-text .display-3 {
-	color: white;
-	font-weight: bold;
-}
-
+.jumbotron-text .display-3,
 .jumbo-para {
 	color: white;
+	font-weight: bold;
 }
 
 .jumbotron.my-4 {
