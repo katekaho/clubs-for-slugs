@@ -25,6 +25,10 @@ body {
 
 }
 
+.jumbotron.my-4 {
+	background: url("../img/forest.jpg"); 
+}
+
 .m-0.text-center a{
 	color: white;
 }
