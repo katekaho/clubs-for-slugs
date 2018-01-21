@@ -82,7 +82,8 @@ var clubs = [
         facebookName: "Anthropology Society",
         webName: "Anthro Society Page",
         instagramName: "",
-        email: "" },
+        email: "" 
+      },
 
       { name: 'Association for Computing Machinery',
         category: 'academic',
@@ -215,11 +216,9 @@ var clubs = [
 
       { name: 'Circle K International',
         category: 'service',
-<<<<<<< HEAD
         description: 'Premier collegiate community service'},
 
       { name: 'Japanese Student Association (JSA)',
-=======
         description: 'CKI is the premier collegiate community service, leadership development, and friendship organization in the world. ',
         facebookUrl: "https://www.facebook.com/groups/ucsccirclek/10153792201631243/" ,
         webUrl: "https://ucsc-cki.weebly.com/cki.html",
@@ -231,7 +230,6 @@ var clubs = [
       },
       
       { name: 'Japanese Student Association (JSA)', 
->>>>>>> 0cdda562ddeb42dc8fa6f3e7b7c830475dd6c64a
         category: 'culture-and-identity',
         description: 'JSA is a student led organization of UCSC that supports and promote Japanese culture through cultural events, activities, and socials.',
         facebookUrl: "https://www.facebook.com/groups/JSA.UCSC/" ,
