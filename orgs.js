@@ -5,6 +5,18 @@ var clubs = [
         category: 'academic',
         description: 'Learn about chemistry',
         facebookUrl: "" ,
+        webUrl: "https://chemclubucsc.weebly.com/",
+        instagramUrl: "",
+        facebookName: "",
+        webName: "Chem Club at UCSC",
+        instagramName: "",
+        email: ""
+      },
+
+      { name: 'Education for Sustainable Living Program (ESLP)', 
+        category: 'environmental',
+        description: 'A student-run organization which offers student-facilitated Action Research Teams (ARTs) for credit every spring quarter at the University of California Santa Cruz.',
+        facebookUrl: "" ,
         webUrl: "",
         instagramUrl: "",
         facebookName: "",
@@ -13,13 +25,17 @@ var clubs = [
         email: ""
       },
 
-      { name: 'Education for Sustainable Living Program (ESLP)', 
-        category: 'environmental',
-        description: 'A student-run organization which offers student-facilitated Action Research Teams (ARTs) for credit every spring quarter at the University of California Santa Cruz.' },
-
       { name: 'Active Minds', 
         category: 'general',
-        description: 'Learn about chemistry' },
+        description: 'Learn about chemistry',
+        facebookUrl: "" ,
+        webUrl: "",
+        instagramUrl: "",
+        facebookName: "",
+        webName: "",
+        instagramName: "",
+        email: ""
+      },
 
       { name: 'Kappa Zeta', 
         category: 'greek',
