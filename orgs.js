@@ -69,9 +69,9 @@ var clubs = [
       {name: 'Alpha Phi Omega', category: 'Greek',
             description: 'Be a leader. Be a friend. Be of service'},
 
-      {name: 'Alpha Psi Sorority', category: 'Greek'
+      {name: 'Alpha Psi Sorority', category: 'Greek',
             description: 'Join us in the pursuit of lifelong friendship'},
-                      
+                    
     ];
 
 // Sorts clubs into alphabetical order
@@ -87,7 +87,7 @@ for (var i = 0; i < clubs.length; i++) {
       div.classList.add(clubs[i].category);
 
       var icon = document.createElement("div");
-      icon.classList.add("icon");
+      //icon.classList.add("icon");
 
       var header = document.createElement("h2");
       header.innerHTML = clubs[i].name;
