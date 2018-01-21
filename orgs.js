@@ -75,6 +75,12 @@ var clubs = [
       {name: 'Delta Sigma Pi', category: 'Greek',
             description: 'Americas Foremost Co-ed Professional Fraternity'},
 
+      {name: 'Ambience at UCSC', category: 'visual-and-performance',
+           description: 'We are a group of glovers'},
+
+      {name: 'Cloud 9 A Cappella', category: 'visual-and-performance',
+            description: 'UCSC orginall a cappella group'},
+
     ];
 
 // Sorts clubs into alphabetical order
