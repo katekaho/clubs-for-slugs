@@ -10,7 +10,7 @@ var clubs = [
       { name: 'Active Minds', category: 'general',
             description: 'Learn about chemistry' },
 
-      { name: 'Kappa Zeta', category: 'Greek',
+      { name: 'Kappa Zeta', category: 'greek',
             description: 'Kappass' },
 
       { name: 'The Hightones', category: 'visual-and-performance',
@@ -24,9 +24,6 @@ var clubs = [
 
       { name: 'Muslim Student Association', category: 'religious',
             description: 'Join us'},
-
-      { name: 'Circle K International', category: 'service',
-            description: 'Do service'},
 
       { name: 'Anthropology Society',category: 'academic',
             description:'student run organization, focuses on the extracurricular enhancement of the anthropology student experience'},
@@ -60,19 +57,19 @@ var clubs = [
       { name: 'Chinese Student Association', category: 'general',
 	          description: 'A student organization promoting unity and empowerment among UCSC students through education' },
 
-      {name:'Alpha Epsilon Pi', category: 'Greek',
+      {name:'Alpha Epsilon Pi', category: 'greek',
             description: 'The Jewish fraternity'},
 
-      {name: 'Alpha Kappa Delta Phi', category: 'Greek',
+      {name: 'Alpha Kappa Delta Phi', category: 'greek',
             description: 'Love * Friendship * Sisterhood'},
 
-      {name: 'Alpha Phi Omega', category: 'Greek',
+      {name: 'Alpha Phi Omega', category: 'greek',
             description: 'Be a leader. Be a friend. Be of service'},
 
-      {name: 'Alpha Psi Sorority', category: 'Greek',
+      {name: 'Alpha Psi Sorority', category: 'greek',
             description: 'Join us in the pursuit of lifelong friendship'},
 
-      {name: 'Delta Sigma Pi', category: 'Greek',
+      {name: 'Delta Sigma Pi', category: 'greek',
             description: 'Americas Foremost Co-ed Professional Fraternity'},
 
       {name: 'Ambience at UCSC', category: 'visual-and-performance',
@@ -92,7 +89,9 @@ var clubs = [
 
       {name: 'Circle K International', category: 'service',
             description: 'Premier collegiate community service'},
-            //just a check
+      
+      {name: 'Japanese Student Association (JSA)', category: 'culture-and-identity',
+            description: 'JSA is a student led organization of UCSC that supports and promote Japanese culture through cultural events, activities, and socials.'},
 
     ];
 
@@ -113,6 +112,7 @@ for (var i = 0; i < clubs.length; i++) {
       var info = document.createElement("div");
       info.innerHTML = "Here's an example string.";
       info.classList.add("collapse");
+
       var header = document.createElement("h2");
       header.classList.add("clickHeader");
       header.innerHTML = clubs[i].name;
