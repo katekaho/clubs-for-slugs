@@ -60,11 +60,10 @@ var clubs = [
       { name: 'Anthropology Society',
         category: 'academic',
         description:'A student run organization, focused on the extracurricular enhancement of the anthropology student experience.',
-        facebook: "https://www.facebook.com/groups/ucscanthrosociety/about/",
         facebookUrl: "https://www.facebook.com/groups/ucscanthrosociety/about/" ,
         webUrl: "https://anthro.ucsc.edu/about/anthro-society.html",
         instagramUrl: "",
-        facebookName: "",
+        facebookName: "Anthropology Society",
         webName: "Anthro Society Page",
         instagramName: "",
         email: "" },
@@ -99,7 +98,15 @@ var clubs = [
 
       { name: 'Golden Key International Honor Society',
         category: 'academic',
-	      description: 'We offer a sense of fellowship within the society pillars' },
+	      description: 'We offer a sense of fellowship within the society pillars.',
+        facebookUrl: "https://www.facebook.com/groups/ucscgoldenkey/" ,
+        webUrl: "http://ucsc.goldenkey.org/",
+        instagramUrl: "",
+        facebookName: "UCSC Golden Key Honor Society",
+        webName: "UCSC Golden Key Honor Society",
+        instagramName: "UCSC Golden Key Honor Society",
+        email: "goldenkeyucsc@gmail.com"
+      },
 
       { name: 'A Step Forward',
         category: 'general',
@@ -111,7 +118,15 @@ var clubs = [
 
       { name: 'Alpha Epsilon Pi',
         category: 'greek',
-        description: 'A social fraternity that seeks to proliferate and espouse the morals of Judaism through brotherhood, social action, and philanthropy.'},
+        description: 'A social fraternity that seeks to proliferate and espouse the morals of Judaism through brotherhood, social action, and philanthropy.',
+        facebookUrl: "https://www.facebook.com/UCSCAEPI/" ,
+        webUrl: "https://chemclubucsc.weebly.com/",
+        instagramUrl: "https://www.instagram.com/aepi_ucsc/",
+        facebookName: "Alpha Epsilon Pi",
+        webName: "Alpha Epsilon Pi",
+        instagramName: "Alpha Epsilon Pi",
+        email: "aepisc@gmail.com"
+      },
 
       { name: 'Alpha Kappa Delta Phi',
         category: 'greek',
@@ -123,11 +138,27 @@ var clubs = [
 
       { name: 'Alpha Psi Sorority',
         category: 'greek',
-        description: 'An organization founded on the ideals of academic excellence, intellectual achievement, and social development. '},
+        description: 'An organization founded on the ideals of academic excellence, intellectual achievement, and social development. ',
+        facebookUrl: "https://www.facebook.com/UCSCAlphaPsi" ,
+        webUrl: "http://alphapsiucsc.wixsite.com/alphapsiucsc",
+        instagramUrl: "https://www.instagram.com/ucscalphapsi/",
+        facebookName: "Alpha Psi Sorority",
+        webName: "Alpha Psi Sorority",
+        instagramName: "Alpha Psi Sorority",
+        email: "alphapsiucsc@yahoo.com"
+      },
 
       { name: 'Delta Sigma Pi',
         category: 'greek',
-        description: 'An organization acilitates social activity among students, the community, and business organizations. '},
+        description: 'An organization acilitates social activity among students, the community, and business organizations. ',
+        facebookUrl: "https://www.facebook.com/ucscdsp/?ref=aymt_homepage_panel" ,
+        webUrl: "https://www.ucscdsp.org/",
+        instagramUrl: "http://instagram.com/ucscdsp",
+        facebookName: "Delta Sigma Pi",
+        webName: "Delta Sigma Pi",
+        instagramName: "Delta Sigma Pi",
+        email: "ucsc.dsp@gmail.com"
+      },
 
       { name: 'Ambience at UCSC',
         category: 'visual-and-performance',
@@ -135,27 +166,58 @@ var clubs = [
 
       { name: 'Cloud 9 A Cappella',
         category: 'visual-and-performance',
-        description: 'UCSC orginall a cappella group'},
+        description: 'Cloud 9 is an original a cappella group at UCSC. Established in 2001, we have been rocking collegiate a cappella for over a decade.'},
 
       { name: 'Banana Slugs for Animals',
         category:'political',
-        description: 'Animal rights group at UCSC'},
+        description: 'A student organization, uses eye-catching displays, protests, tabling and volunteering to fight against animal injustice.'},
 
       { name: 'American Medical Student Association',
         category: 'professional',
-        description: 'Dreaming of becoming a doctor, join AMSA'},
+        description: 'AMSA is designed to help premeds and med students network and learn about the challenges that will face them as doctors.'},
 
       { name: 'Klesis Christian Fellowship',
         category: 'religious',
-        description: 'Meets weekly to study the bible'},
+        description: 'A UC Santa Cruz campus fellowship that meets weekly to study the Bible and build lasting friendships.',
+        facebookUrl: "https://www.facebook.com/klesissantacruz/" ,
+        webUrl: "https://www.ucsc.klesis.org/join-us/",
+        instagramUrl: "https://www.instagram.com/klesis_ucsantacruz/",
+        facebookName: "UCSC Klesis",
+        webName: "UCSC Klesis",
+        instagramName: "UCSC Klesis",
+        email: "jason.lu@gpmail.org"
+      },
 
       { name: 'Circle K International',
         category: 'service',
+<<<<<<< HEAD
         description: 'Premier collegiate community service'},
 
       { name: 'Japanese Student Association (JSA)',
+=======
+        description: 'CKI is the premier collegiate community service, leadership development, and friendship organization in the world. ',
+        facebookUrl: "https://www.facebook.com/groups/ucsccirclek/10153792201631243/" ,
+        webUrl: "https://ucsc-cki.weebly.com/cki.html",
+        instagramUrl: "https://www.instagram.com/ucsccki/",
+        facebookName: "UCSC Circle K International",
+        webName: "UCSC Circle K International",
+        instagramName: "UCSC Circle K International",
+        email: "sec.ucsc.cki@gmail.com"
+      },
+      
+      { name: 'Japanese Student Association (JSA)', 
+>>>>>>> 0cdda562ddeb42dc8fa6f3e7b7c830475dd6c64a
         category: 'culture-and-identity',
-        description: 'JSA is a student led organization of UCSC that supports and promote Japanese culture through cultural events, activities, and socials.'},
+        description: 'JSA is a student led organization of UCSC that supports and promote Japanese culture through cultural events, activities, and socials.',
+        facebookUrl: "https://www.facebook.com/groups/JSA.UCSC/" ,
+        webUrl: "http://jsaucsc.wixsite.com/jsaucsc",
+        instagramUrl: "",
+        facebookName: "UCSC JSA",
+        webName: "UCSC JSA ",
+        instagramName: "UCSC JSA ",
+        email: "jsaucsc@gmail.com"
+      },
+
 
     ];
 
