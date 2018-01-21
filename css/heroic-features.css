@@ -25,6 +25,14 @@ body {
 
 }
 
+.m-0.text-center a{
+	color: white;
+}
+
+.m-0.text-center.text-blue {
+	color: gray;
+}
+
 .jumbotron-text {
 	display: inline-block;
 	justify-content: center;
