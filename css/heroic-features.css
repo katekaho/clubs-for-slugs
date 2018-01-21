@@ -28,7 +28,6 @@ body {
 .jumbotron-text .display-3 {
 	color: white;
 	font-weight: bold;
-	-webkit-text-stroke: 0.5px black;
 }
 
 .jumbo-para {
