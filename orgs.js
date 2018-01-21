@@ -109,7 +109,7 @@ for (var i = 0; i < clubs.length; i++) {
       div.classList.add(clubs[i].category);
 
       var icon = document.createElement("div");
-      icon.classList.add("icon");
+      //icon.classList.add("icon");
 
       var header = document.createElement("h2");
       header.innerHTML = clubs[i].name;
