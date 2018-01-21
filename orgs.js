@@ -311,14 +311,17 @@ for (var i = 0; i < clubs.length; i++) {
       var web = createIcon("img/webLogo.png", clubs[i].webUrl, clubs[i].webName);
       var instagram = createIcon("img/instagramLogo.png", clubs[i].instagramUrl, clubs[i].instagramName);
 
+
       // Creates accordion affect
       clubHeader.onclick = function(e){
 
         if (first) {first = false;}
         else {
+          // Removes class show of previously selected element
           var current = document.getElementsByClassName("collapse show");
           current[0].className = current[0].className.replace(" show", "");
         }
+        // Adds class show to currently selected element
         e.target.nextElementSibling.nextElementSibling.classList.add("show");
       }
 
@@ -328,11 +331,6 @@ for (var i = 0; i < clubs.length; i++) {
 
       container.appendChild(div);
 }
-
-const categories = ['academic', 'culture-and-identity','environmental', 'general',
-      'greek', 'visual-and-performance', 'political', 'professional',
-      'religious', 'service'];
-
 
 // Copied example from w3schools.com to filter lists
 filterSelection("all")
