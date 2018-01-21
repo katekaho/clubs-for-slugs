@@ -91,7 +91,8 @@ var clubs = [
             description: 'Meets weekly to study the bible'},
 
       {name: 'Circle K International', category: 'service',
-            description: 'Premier collegiate community service'},                  
+            description: 'Premier collegiate community service'},
+            //just a check
 
     ];
 
