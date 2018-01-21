@@ -84,6 +84,15 @@ var clubs = [
       {name: 'Banana Slugs for Animals', category:'political',
             description: 'Animal rights group at UCSC'},
 
+      {name: 'American Medical Student Association', category: 'professional',
+            description: 'Dreaming of becoming a doctor, join AMSA'},
+
+      {name: 'Klesis Christian Fellowship', category: 'religious',
+            description: 'Meets weekly to study the bible'},
+
+      {name: 'Circle K International', category: 'service',
+            description: 'Premier collegiate community service'},                  
+
     ];
 
 // Sorts clubs into alphabetical order
