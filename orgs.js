@@ -81,6 +81,9 @@ var clubs = [
       {name: 'Cloud 9 A Cappella', category: 'visual-and-performance',
             description: 'UCSC orginall a cappella group'},
 
+      {name: 'Banana Slugs for Animals', category:'political',
+            description: 'Animal rights group at UCSC'},
+
     ];
 
 // Sorts clubs into alphabetical order
