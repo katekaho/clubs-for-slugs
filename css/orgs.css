@@ -23,6 +23,10 @@ h2 {
   cursor: pointer;
 }
 
+.hidden-content {
+  height: 500px;
+}
+
 .filterDiv.academic,
 #acad {
   background-color: #ffe5e5;
@@ -73,6 +77,10 @@ h2 {
   background-color: #f9e5ff;
 }
 
+.collapse.show{
+  height: 400px;
+}
+
 .filterDiv {
 	background-color: #e0ecff;
 	display: none; /* Hidden by default */
@@ -101,6 +109,10 @@ h2 {
 /* Add a light grey background on mouse-over */
 .btn:hover {
   background-color: #ddd;
+}
+
+.btn:focus {
+  border-color: black;
 }
 
 /* Add a dark background to the active button */
