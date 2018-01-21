@@ -69,9 +69,12 @@ var clubs = [
       {name: 'Alpha Phi Omega', category: 'Greek',
             description: 'Be a leader. Be a friend. Be of service'},
 
-      {name: 'Alpha Psi Sorority', category: 'Greek'
+      {name: 'Alpha Psi Sorority', category: 'Greek',
             description: 'Join us in the pursuit of lifelong friendship'},
-                      
+
+      {name: 'Delta Sigma Pi', category: 'Greek',
+            description: 'Americas Foremost Co-ed Professional Fraternity'},
+
     ];
 
 // Sorts clubs into alphabetical order
