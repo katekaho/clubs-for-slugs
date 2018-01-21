@@ -128,12 +128,12 @@ var clubs = [
       { name: 'A Step Forward',
         category: 'general',
 	      description: 'Introduces UC Santa Cruz, the Filipino Student Association (FSA) community, and college life to newly admitted students.' ,
-        facebookUrl: "" ,
+        facebookUrl: "https://www.facebook.com/groups/674147542707504/" ,
         webUrl: "https://engagingeducation.org/a-step-forward/",
         instagramUrl: "",
-        facebookName: "A Step Forward",
+        facebookName: "A Step Forward 19",
         webName: "A Step Forward",
-        instagramName: "A Step Forward",
+        instagramName: "",
         email: "asf.ucsc@gmail.com"
       },
 
