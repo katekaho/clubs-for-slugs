@@ -15,6 +15,14 @@ h2 {
     overflow: hidden;
 }
 
+.clickHeader {
+  text-decoration: underline;
+}
+
+.clickHeader:hover {
+  cursor: pointer;
+}
+
 .filterDiv {
 	background-color: #e0ecff;
 	display: none; /* Hidden by default */
