@@ -29,7 +29,10 @@ body {
 	color: white;
 	font-weight: bold;
 	-webkit-text-stroke: 0.5px black;
-	text-shadow: 2px 2px black;
+}
+
+.jumbo-para {
+	color: white;
 }
 
 .jumbotron.my-4 {
