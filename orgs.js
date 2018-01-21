@@ -92,7 +92,7 @@ var clubs = [
 
       {name: 'Circle K International', category: 'service',
             description: 'Premier collegiate community service'},
-            //just a check                 
+            //just a check
 
     ];
 
