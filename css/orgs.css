@@ -23,6 +23,56 @@ h2 {
   cursor: pointer;
 }
 
+.filterDiv.academic,
+#acad {
+  background-color: #ffe5e5;
+}
+
+.filterDiv.culture-and-identity,
+#cult {
+  background-color: #fff2e5;
+}
+
+.filterDiv.environmental,
+#enviro {
+  background-color: #ffffe5;
+}
+
+.filterDiv.general,
+#gen {
+  background-color: #f2ffe5;
+}
+
+.filterDiv.greek,
+#gr {
+  background-color: #e5ffe5;
+}
+
+.filterDiv.visual-and-performance,
+#vis {
+  background-color: #e5fff2;
+}
+
+.filterDiv.political,
+#poli {
+  background-color: #e5ffff;
+}
+
+.filterDiv.professional,
+#pro {
+  background-color: #e5f2ff;
+}
+
+.filterDiv.religious,
+#relig {
+  background-color: #e5ecff;
+}
+
+.filterDiv.service,
+#serv {
+  background-color: #f9e5ff;
+}
+
 .filterDiv {
 	background-color: #e0ecff;
 	display: none; /* Hidden by default */
