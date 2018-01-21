@@ -24,44 +24,52 @@ h2 {
 }
 
 .filterDiv.academic,
-#acad,
-{
+#acad {
   background-color: #ffe5e5;
 }
 
-.filterDiv.culture-and-identity {
+.filterDiv.culture-and-identity,
+#cult {
   background-color: #fff2e5;
 }
 
-.filterDiv.environmental {
+.filterDiv.environmental,
+#enviro {
   background-color: #ffffe5;
 }
 
-.filterDiv.general {
+.filterDiv.general,
+#gen {
   background-color: #f2ffe5;
 }
 
-.filterDiv.greek {
+.filterDiv.greek,
+#gr {
   background-color: #e5ffe5;
 }
 
-.filterDiv.visual-and-performance {
+.filterDiv.visual-and-performance,
+#vis {
   background-color: #e5fff2;
 }
 
-.filterDiv.political {
+.filterDiv.political,
+#poli {
   background-color: #e5ffff;
 }
 
-.filterDiv.professional {
+.filterDiv.professional,
+#pro {
   background-color: #e5f2ff;
 }
 
-.filterDiv.religious {
+.filterDiv.religious,
+#relig {
   background-color: #e5ecff;
 }
 
-.filterDiv.service {
+.filterDiv.service,
+#serv {
   background-color: #f9e5ff;
 }
 
