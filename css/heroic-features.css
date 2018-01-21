@@ -25,6 +25,14 @@ body {
 
 }
 
+.display-3,
+.lead {
+	color: white;
+	font-weight: bold;
+	-webkit-text-stroke: 1px black;
+	text-shadow: 2px 2px black;
+}
+
 .jumbotron.my-4 {
 	background: url("../img/forest.jpg"); 
 }
