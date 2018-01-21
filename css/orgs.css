@@ -23,8 +23,20 @@ h2 {
   cursor: pointer;
 }
 
-.hidden-content {
-  height: 300px;
+.filterDiv .icons {
+  margin: 40px;
+}
+
+.icons {
+  margin: 20px;
+}
+
+.icons .a {
+  color: red;
+}
+
+.icon-pic {
+  margin-right: 20px;
 }
 
 .filterDiv.academic,

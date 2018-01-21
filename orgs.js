@@ -4,7 +4,14 @@ var clubs = [
       { name: 'Chemistry Club', 
         category: 'academic',
         description: 'Learn about chemistry',
-        facebook: "" },
+        facebookUrl: "" ,
+        webUrl: "",
+        instagramUrl: "",
+        facebookName: "",
+        webName: "",
+        instagramName: "",
+        email: ""
+      },
 
       { name: 'Education for Sustainable Living Program (ESLP)', 
         category: 'environmental',
@@ -37,7 +44,14 @@ var clubs = [
       { name: 'Anthropology Society',
         category: 'academic',
         description:'student run organization, focuses on the extracurricular enhancement of the anthropology student experience',
-        facebook: "https://www.facebook.com/groups/ucscanthrosociety/about/"},
+        facebook: "https://www.facebook.com/groups/ucscanthrosociety/about/",
+        facebookUrl: "https://www.facebook.com/groups/ucscanthrosociety/about/" ,
+        webUrl: "https://anthro.ucsc.edu/about/anthro-society.html",
+        instagramUrl: "",
+        facebookName: "",
+        webName: "Anthro Society Page",
+        instagramName: "",
+        email: "" },
 
       { name: 'Association for Computing Machinery',
         category: 'academic',
@@ -136,6 +150,23 @@ clubs = clubs.sort(function(a, b) {
       return a.name.localeCompare(b.name);
 })
 
+// Creates and formats image icon
+function createIcon(imgLink, actualLink, name) {
+  var iconDiv = document.createElement("div");
+  var link = document.createElement("img");
+  var a = document.createElement("a");
+  a.setAttribute("href", actualLink);
+  a.innerHTML = name;
+  iconDiv.classList.add("icons");
+  link.classList.add("icon-pic");
+  link.setAttribute("src", imgLink);
+  link.setAttribute("height", "40px");
+  iconDiv.appendChild(link);
+  iconDiv.appendChild(a);
+  hiddenInfo.appendChild(iconDiv);
+  return iconDiv;
+}
+
 // Creates div with name of each club
 for (var i = 0; i < clubs.length; i++) {
       // Div that contains club info
@@ -151,8 +182,12 @@ for (var i = 0; i < clubs.length; i++) {
       para.innerHTML = clubs[i].description;
 
       var hiddenInfo = document.createElement("div");
-      hiddenInfo.innerHTML = clubs[i].facebook;
       hiddenInfo.classList.add("collapse");
+
+      var email = createIcon("img/emailLogo.png", clubs[i].email, clubs[i].email);
+      var facebook = createIcon("img/facebookLogo.png", clubs[i].facebookUrl, clubs[i].facebookName);
+      var web = createIcon("img/webLogo.png", clubs[i].webUrl, clubs[i].webName);
+      var instagram = createIcon("img/instagramLogo.png", clubs[i].instagramUrl, clubs[i].instagramName);
 
       // Creates accordion affect
       clubHeader.onclick = function(e){
