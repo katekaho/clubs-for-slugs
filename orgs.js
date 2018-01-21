@@ -1,97 +1,131 @@
 const container = document.getElementById('orgs-list');
 
 var clubs = [
-      { name: 'Chemistry Club', category: 'academic',
-            description: 'Learn about chemistry' },
+      { name: 'Chemistry Club', 
+        category: 'academic',
+        description: 'Learn about chemistry',
+        facebook: "" },
 
-      { name: 'Education for Sustainable Living Program (ESLP)', category: 'environmental',
-            description: 'A student-run organization which offers student-facilitated Action Research Teams (ARTs) for credit every spring quarter at the University of California Santa Cruz.' },
+      { name: 'Education for Sustainable Living Program (ESLP)', 
+        category: 'environmental',
+        description: 'A student-run organization which offers student-facilitated Action Research Teams (ARTs) for credit every spring quarter at the University of California Santa Cruz.' },
 
-      { name: 'Active Minds', category: 'general',
-            description: 'Learn about chemistry' },
+      { name: 'Active Minds', 
+        category: 'general',
+        description: 'Learn about chemistry' },
 
-      { name: 'Kappa Zeta', category: 'greek',
-            description: 'Kappass' },
+      { name: 'Kappa Zeta', 
+        category: 'greek',
+        description: 'Kappass' },
 
-      { name: 'The Hightones', category: 'visual-and-performance',
-            description: 'Acapella' },
+      { name: 'The Hightones', 
+        category: 'visual-and-performance',
+        description: 'Acapella' },
 
-      { name: 'College Republicans', category: 'political',
-            description: '....'},
+      { name: 'College Republicans', 
+        category: 'political',
+        description: '....'},
 
-      { name: 'Pre-Dental ', category: 'professional',
-            description: 'Prepare for dental'},
+      { name: 'Pre-Dental ', 
+        category: 'professional',
+        description: 'Prepare for dental'},
 
-      { name: 'Muslim Student Association', category: 'religious',
-            description: 'Join us'},
+      { name: 'Muslim Student Association', 
+        category: 'religious',
+        description: 'Join us'},
 
-      { name: 'Anthropology Society',category: 'academic',
-            description:'student run organization, focuses on the extracurricular enhancement of the anthropology student experience'},
+      { name: 'Anthropology Society',
+        category: 'academic',
+        description:'student run organization, focuses on the extracurricular enhancement of the anthropology student experience',
+        facebook: "https://www.facebook.com/groups/ucscanthrosociety/about/"},
 
-      { name: 'Association for Computing Machinery',category: 'academic',
-            description:'ACM seeks to promote interest in computer science and other science- and engineering-related disciplines.'},
+      { name: 'Association for Computing Machinery',
+        category: 'academic',
+        description:'ACM seeks to promote interest in computer science and other science- and engineering-related disciplines.'},
 
-      { name: 'Chicanas and Latinas Educandose', category: 'academic',
-            description: 'A program committed to increasing the retention and graduation rate for all raza here at UCSC'},
-      { name: 'Chinese Student & Scholars Association', category: 'academic',
-	          description: 'Dedicated to fostering friendship in the Chinese Community' },
+      { name: 'Chicanas and Latinas Educandose', 
+        category: 'academic',
+        description: 'A program committed to increasing the retention and graduation rate for all raza here at UCSC'},
 
-      { name: 'Cognitive Science Student Association', category: 'academic',
-	          description: 'Founded to support and enrich the academic experience of students interested in the interdisciplinary study of brains and behavior' },
+      { name: 'Chinese Student & Scholars Association', 
+        category: 'academic',
+	      description: 'Dedicated to fostering friendship in the Chinese Community' },
 
-      { name: 'Communicating Oceanography Research Effectively', category: 'academic',
-	          description: 'Graduate student organization that aims to improve the marine sciences through education, outreach, and diversification' },
+      { name: 'Cognitive Science Student Association', 
+        category: 'academic',
+	      description: 'Founded to support and enrich the academic experience of students interested in the interdisciplinary study of brains and behavior' },
 
-      { name: 'Community Unified Student Network', category: 'academic',
-	          description: 'Organization under Engaging Education that focuses on the retention rates of Asian/Pacific Islander students on campus' },
+      { name: 'Communicating Oceanography Research Effectively', 
+        category: 'academic',
+	      description: 'Graduate student organization that aims to improve the marine sciences through education, outreach, and diversification' },
 
-      { name: 'Engineers For Change', category: 'academic',
-	          description: 'Our mission is to create a mutually beneficial partnership between our local community and UC Santa Cruz Students' },
+      { name: 'Community Unified Student Network', 
+        category: 'academic',
+	      description: 'Organization under Engaging Education that focuses on the retention rates of Asian/Pacific Islander students on campus' },
 
-      { name: 'Golden Key International Honor Society', category: 'academic',
-	          description: 'We offer a sense of fellowship within the society pillars' },
+      { name: 'Engineers For Change', 
+        category: 'academic',
+	      description: 'Our mission is to create a mutually beneficial partnership between our local community and UC Santa Cruz Students' },
 
-      { name: 'A Step Forward', category: 'general',
-	          description: 'Introduces UC Santa Cruz, the Filipino Student Association (FSA) community, and college life to newly admitted students.' },
+      { name: 'Golden Key International Honor Society', 
+        category: 'academic',
+	      description: 'We offer a sense of fellowship within the society pillars' },
 
-      { name: 'Chinese Student Association', category: 'general',
-	          description: 'A student organization promoting unity and empowerment among UCSC students through education' },
+      { name: 'A Step Forward', 
+        category: 'general',
+	      description: 'Introduces UC Santa Cruz, the Filipino Student Association (FSA) community, and college life to newly admitted students.' },
 
-      {name:'Alpha Epsilon Pi', category: 'greek',
-            description: 'The Jewish fraternity'},
+      { name: 'Chinese Student Association', 
+        category: 'general',
+	      description: 'A student organization promoting unity and empowerment among UCSC students through education' },
 
-      {name: 'Alpha Kappa Delta Phi', category: 'greek',
-            description: 'Love * Friendship * Sisterhood'},
+      { name: 'Alpha Epsilon Pi', 
+        category: 'greek',
+        description: 'The Jewish fraternity'},
 
-      {name: 'Alpha Phi Omega', category: 'greek',
-            description: 'Be a leader. Be a friend. Be of service'},
+      { name: 'Alpha Kappa Delta Phi', 
+        category: 'greek',
+        description: 'Love * Friendship * Sisterhood'},
 
-      {name: 'Alpha Psi Sorority', category: 'greek',
-            description: 'Join us in the pursuit of lifelong friendship'},
+      { name: 'Alpha Phi Omega', 
+        category: 'greek',
+        description: 'Be a leader. Be a friend. Be of service'},
 
-      {name: 'Delta Sigma Pi', category: 'greek',
-            description: 'Americas Foremost Co-ed Professional Fraternity'},
+      { name: 'Alpha Psi Sorority', 
+        category: 'greek',
+        description: 'Join us in the pursuit of lifelong friendship'},
 
-      {name: 'Ambience at UCSC', category: 'visual-and-performance',
-           description: 'We are a group of glovers'},
+      { name: 'Delta Sigma Pi', 
+        category: 'greek',
+        description: 'Americas Foremost Co-ed Professional Fraternity'},
 
-      {name: 'Cloud 9 A Cappella', category: 'visual-and-performance',
-            description: 'UCSC orginall a cappella group'},
+      { name: 'Ambience at UCSC', 
+        category: 'visual-and-performance',
+        description: 'We are a group of glovers'},
 
-      {name: 'Banana Slugs for Animals', category:'political',
-            description: 'Animal rights group at UCSC'},
+      { name: 'Cloud 9 A Cappella', 
+        category: 'visual-and-performance',
+        description: 'UCSC orginall a cappella group'},
 
-      {name: 'American Medical Student Association', category: 'professional',
-            description: 'Dreaming of becoming a doctor, join AMSA'},
+      { name: 'Banana Slugs for Animals', 
+        category:'political',
+        description: 'Animal rights group at UCSC'},
 
-      {name: 'Klesis Christian Fellowship', category: 'religious',
-            description: 'Meets weekly to study the bible'},
+      { name: 'American Medical Student Association', 
+        category: 'professional',
+        description: 'Dreaming of becoming a doctor, join AMSA'},
 
-      {name: 'Circle K International', category: 'service',
-            description: 'Premier collegiate community service'},
+      { name: 'Klesis Christian Fellowship', 
+        category: 'religious',
+        description: 'Meets weekly to study the bible'},
+
+      { name: 'Circle K International', 
+        category: 'service',
+        description: 'Premier collegiate community service'},
       
-      {name: 'Japanese Student Association (JSA)', category: 'culture-and-identity',
-            description: 'JSA is a student led organization of UCSC that supports and promote Japanese culture through cultural events, activities, and socials.'},
+      { name: 'Japanese Student Association (JSA)', 
+        category: 'culture-and-identity',
+        description: 'JSA is a student led organization of UCSC that supports and promote Japanese culture through cultural events, activities, and socials.'},
 
     ];
 
@@ -110,7 +144,8 @@ for (var i = 0; i < clubs.length; i++) {
       div.classList.add(clubs[i].category);
 
       var info = document.createElement("div");
-      info.innerHTML = "Here's an example string.";
+
+      info.innerHTML = clubs[i].facebook;
       info.classList.add("collapse");
 
       var header = document.createElement("h2");
