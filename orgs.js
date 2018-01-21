@@ -127,11 +127,27 @@ var clubs = [
 
       { name: 'A Step Forward',
         category: 'general',
-	      description: 'Introduces UC Santa Cruz, the Filipino Student Association (FSA) community, and college life to newly admitted students.' },
+	      description: 'Introduces UC Santa Cruz, the Filipino Student Association (FSA) community, and college life to newly admitted students.' ,
+        facebookUrl: "" ,
+        webUrl: "https://engagingeducation.org/a-step-forward/",
+        instagramUrl: "",
+        facebookName: "A Step Forward",
+        webName: "A Step Forward",
+        instagramName: "A Step Forward",
+        email: "asf.ucsc@gmail.com"
+      },
 
       { name: 'Chinese Student Association',
         category: 'general',
-	      description: 'A student organization promoting unity and empowerment among UCSC students through education' },
+	      description: 'A student organization promoting unity and empowerment among UCSC students through education' ,
+        facebookUrl: "https://www.facebook.com/CSAUCSC/" ,
+        webUrl: "https://csaucsc.wordpress.com",
+        instagramUrl: "",
+        facebookName: "UCSC Chinese Student Association",
+        webName: "UCSC Chinese Student Association",
+        instagramName: "UCSC Chinese Student Association",
+        email: "csaucsc@yahoo.com"
+      },
 
       { name: 'Alpha Epsilon Pi',
         category: 'greek',
@@ -216,10 +232,7 @@ var clubs = [
 
       { name: 'Circle K International',
         category: 'service',
-        description: 'Premier collegiate community service'},
-
-      { name: 'Japanese Student Association (JSA)',
-        description: 'CKI is the premier collegiate community service, leadership development, and friendship organization in the world. ',
+        description: 'CKI is the premier collegiate community service, leadership development, and friendship organization in the world.',
         facebookUrl: "https://www.facebook.com/groups/ucsccirclek/10153792201631243/" ,
         webUrl: "https://ucsc-cki.weebly.com/cki.html",
         instagramUrl: "https://www.instagram.com/ucsccki/",
