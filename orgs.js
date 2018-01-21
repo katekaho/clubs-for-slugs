@@ -3,7 +3,7 @@ const container = document.getElementById('orgs-list');
 var clubs = [
       { name: 'Chemistry Club', 
         category: 'academic',
-        description: 'Learn about chemistry',
+        description: 'This club strive to build a community of UCSC students interested in chemistry and related fields. The club promotes networking with professors and local industrial organizations.',
         facebookUrl: "" ,
         webUrl: "https://chemclubucsc.weebly.com/",
         instagramUrl: "",
@@ -27,7 +27,7 @@ var clubs = [
 
       { name: 'Active Minds', 
         category: 'general',
-        description: 'Learn about chemistry',
+        description: 'The leading nonprofit organization that empowers students to speak openly about mental health in order to educate others and encourage help-seeking.',
         facebookUrl: "" ,
         webUrl: "",
         instagramUrl: "",
@@ -39,27 +39,27 @@ var clubs = [
 
       { name: 'Kappa Zeta', 
         category: 'greek',
-        description: 'Kappass' },
+        description: 'Our sorority has been and always will be committed to promoting sisterhood, leadership, and life-long friendships.' },
 
       { name: 'The Hightones', 
         category: 'visual-and-performance',
-        description: 'Acapella' },
+        description: 'A group of multi-talented, collegiate women whose voices in harmony bring to mind sugar, spice, and everything awesome!' },
 
       { name: 'College Republicans', 
         category: 'political',
-        description: '....'},
+        description: 'We recruit, train, and empower College Republicans to combat liberal bias on campus, and help to elect Republicans throughout our state.'},
 
-      { name: 'Pre-Dental ', 
+      { name: 'Pre-Dental Society', 
         category: 'professional',
-        description: 'Prepare for dental'},
+        description: 'We are focused on providing our members with the resources necessary to become competitive dental school applicants.'},
 
       { name: 'Muslim Student Association', 
         category: 'religious',
-        description: 'Join us'},
+        description: 'We are dedicated to spreading truth and awareness about the real, peaceable message of Islam, and creating a safe and supportive environment for Muslims on campus.'},
 
       { name: 'Anthropology Society',
         category: 'academic',
-        description:'student run organization, focuses on the extracurricular enhancement of the anthropology student experience',
+        description:'A student run organization, focused on the extracurricular enhancement of the anthropology student experience.',
         facebook: "https://www.facebook.com/groups/ucscanthrosociety/about/",
         facebookUrl: "https://www.facebook.com/groups/ucscanthrosociety/about/" ,
         webUrl: "https://anthro.ucsc.edu/about/anthro-society.html",
@@ -111,23 +111,23 @@ var clubs = [
 
       { name: 'Alpha Epsilon Pi', 
         category: 'greek',
-        description: 'The Jewish fraternity'},
+        description: 'A social fraternity that seeks to proliferate and espouse the morals of Judaism through brotherhood, social action, and philanthropy.'},
 
       { name: 'Alpha Kappa Delta Phi', 
         category: 'greek',
-        description: 'Love * Friendship * Sisterhood'},
+        description: 'We have dedicated ourselves to upholding and exemplifying our pillars of scholarship, leadership, service, Asian-awareness, and sisterhood.'},
 
       { name: 'Alpha Phi Omega', 
         category: 'greek',
-        description: 'Be a leader. Be a friend. Be of service'},
+        description: 'A national coeducational service organization founded on the principles of Leadership, Friendship, and Service. '},
 
       { name: 'Alpha Psi Sorority', 
         category: 'greek',
-        description: 'Join us in the pursuit of lifelong friendship'},
+        description: 'An organization founded on the ideals of academic excellence, intellectual achievement, and social development. '},
 
       { name: 'Delta Sigma Pi', 
         category: 'greek',
-        description: 'Americas Foremost Co-ed Professional Fraternity'},
+        description: 'An organization acilitates social activity among students, the community, and business organizations. '},
 
       { name: 'Ambience at UCSC', 
         category: 'visual-and-performance',
