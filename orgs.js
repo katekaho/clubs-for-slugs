@@ -127,7 +127,8 @@ var clubs = [
 
       { name: 'A Step Forward',
         category: 'general',
-	      description: 'Introduces UC Santa Cruz, the Filipino Student Association (FSA) community, and college life to newly admitted students.' },
+	      description: 'Introduces UC Santa Cruz, the Filipino Student Association (FSA) community, and college life to newly admitted students.',
+        facebookUrl: "https://www.facebook.com/groups/674147542707504/" },
 
       { name: 'Chinese Student Association',
         category: 'general',
