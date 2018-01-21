@@ -15,7 +15,7 @@ var clubs = [
 
       { name: 'Education for Sustainable Living Program (ESLP)', 
         category: 'environmental',
-        description: 'A student-run organization which offers student-facilitated Action Research Teams (ARTs) for credit every spring quarter at the University of California Santa Cruz.' },
+        description: 'A student-run organization which offers student-facilitated Action Research Teams (ARTs) for credit every spring quarter at the University of California Santa Cruz.',
         facebookUrl: "" ,
         webUrl: "",
         instagramUrl: "",
